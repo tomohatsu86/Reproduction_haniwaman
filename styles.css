@@ -1,0 +1,280 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: #F6F6F6;
+  border-top: 8px solid green;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fas {
+  margin-right: 10px;
+}
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.header-logo {
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+
+.header-info {
+  float: right;
+  color: #595959;
+  text-align: right;
+}
+
+.subtitle {
+  font-size: 10px;
+  margin-top: 12px;
+}
+
+.telephone {
+  font-size: 26px;
+  margin-top: 12px;
+}
+
+.telephone .fas {
+  font-size: 23px;
+}
+
+.open-time {
+  font-size: 9px;
+  border: 1px solid gray;
+  padding: 7px 20px;
+  margin-top: 10px;
+}
+
+.open-time span {
+  color: #B880AB;
+}
+
+.header-nav {
+  height: 70px;
+  margin-top: 20px;
+}
+
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-nav li {
+  width: 25%;
+  height: 70px;
+  text-align: center;
+  list-style: none;
+  border: 1px solid #6BC6C4;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6cc6c4), to(#9ce3e1));
+  background: linear-gradient(to bottom, #6cc6c4, #9ce3e1);
+  background: -webkit-linear-gradient(bottom, #6cc6c4, #9ce3e1);
+}
+
+.header-nav li a {
+  text-decoration: none;
+  display: block;
+  height: 70px;
+  padding-top: 14px;
+}
+
+.header-nav li a:hover {
+  opacity: 0.7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9ce3e1), to(#6cc6c4));
+  background: linear-gradient(to bottom, #9ce3e1, #6cc6c4);
+  background: -webkit-linear-gradient(bottom, #9ce3e1, #6cc6c4);
+}
+
+.header-nav li span {
+  display: block;
+  color: white;
+  font-weight: bold;
+}
+
+.header-nav li .ja {
+  font-size: 14px;
+}
+
+.header-nav li .en {
+  font-size: 10px;
+}
+
+.header-nav li:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.header-nav li:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.menu {
+  width: 25%;
+  min-width: 260px;
+}
+
+.menu-box {
+  border: 1px solid #6CC6C4;
+  margin-bottom: 20px;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.menu h2 {
+  margin: 0;
+  padding-left: 15px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6cc6c4), to(#9ce3e1));
+  background: linear-gradient(to bottom, #6cc6c4, #9ce3e1);
+  background: -webkit-linear-gradient(bottom, #6cc6c4, #9ce3e1);
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  line-height: 43px;
+}
+
+.menu ul {
+  margin: 0 10px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+.menu-item {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #595959;
+  line-height: 40px;
+  border-bottom: 1px solid #6CC6C4;
+  background: url(/haniwaman_sample/bgListIcon01.png) no-repeat 5px center;
+  padding-left: 25px;
+}
+
+.main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mv {
+  width: 640px;
+}
+
+.mv h2 {
+  padding: 35px 0 10px 0;
+  margin: 0 20px 15px 20px;
+  font-size: 16px;
+  border-bottom: 3px solid green;
+}
+
+.mv-news {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 45px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 9px 0;
+  font-size: 13px;
+  border-bottom: 1px dotted gray;
+  margin: 0 40px 0 30px;
+}
+
+.news .date {
+  font-weight: bold;
+  padding-top: 3px;
+  width: 180px;
+  text-align: left;
+}
+
+.news .text {
+  text-align: left;
+  width: 540px;
+}
+
+.footer-container {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.footer-nav {
+  background-color: #6CC6C4;
+  border-radius: 5px;
+}
+
+.footer-nav ul {
+  padding: 5px 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-nav li {
+  list-style: none;
+  background: url(/haniwaman_sample/bgFooterIcon.png) left center no-repeat;
+  margin-left: 15px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  margin-left: 28px;
+  float: left;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.footer-address {
+  width: 920px;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  font-size: 13px;
+  border-bottom: 2px solid #6CC6C4;
+}
+
+.footer-address span {
+  font-weight: bold;
+}
+
+.footer-credit {
+  width: 920px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 12px;
+}
+/*# sourceMappingURL=styles.css.map */
